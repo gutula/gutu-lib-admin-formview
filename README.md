@@ -45,6 +45,7 @@ Why this tier:
 | --- | --- |
 | Package ID | `admin-formview` |
 | Import Name | `@platform/admin-formview` |
+| Canonical Namespace Target | `@gutu/admin-formview` |
 | UI Surface | Headless typed exports |
 | Consumption Model | Imports + typed helpers |
 | Verification | Build+Typecheck+Lint+Test |
@@ -54,10 +55,18 @@ Why this tier:
 | Field | Value |
 | --- | --- |
 | Package Name | `@platform/admin-formview` |
+| Canonical Namespace Target | `@gutu/admin-formview` |
+| Legacy Compatibility IDs | `@platform/admin-formview` |
 | Direct Dependencies | `@platform/admin-contracts`, `@platform/form`, `@platform/schema`, `@platform/ui-form`, `@platform/ui-kit` |
 | Peer Dependencies | None |
 | React Runtime | No |
 | Workspace Requirement | Compatible Gutu workspace required |
+
+## Namespace Policy
+
+- `@gutu/*` is the canonical public framework namespace for new work.
+- This repo currently publishes `@platform/admin-formview` as the legacy compatibility package id while the migration to `@gutu/admin-formview` is completed.
+- Catalog metadata carries the canonical target id so dashboards, docs, and future tooling can present one uniform Gutu namespace without breaking current consumers.
 
 ## Capability Matrix
 

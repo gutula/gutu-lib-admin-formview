@@ -35,6 +35,7 @@ Provides governed form-view assembly for admin surfaces so resource editors can 
 | Package ID | `admin-formview` |
 | Display Name | Admin Form View |
 | Import Name | `@platform/admin-formview` |
+| Canonical Namespace Target | `@gutu/admin-formview` |
 | Version | `0.1.0` |
 | UI Surface | Headless typed exports |
 | Consumption Model | Imports + typed helpers |
@@ -48,6 +49,7 @@ Provides governed form-view assembly for admin surfaces so resource editors can 
 | Dev Dependencies | None |
 | React Runtime | No |
 | Workspace Scoped | Yes |
+| Legacy Compatibility IDs | `@platform/admin-formview` |
 
 ### Dependency interpretation
 

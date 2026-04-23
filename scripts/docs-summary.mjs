@@ -3,6 +3,7 @@ const summary = {
   "repoName": "gutu-lib-admin-formview",
   "packageId": "admin-formview",
   "displayName": "Admin Form View",
+  "packageCount": 1,
   "group": "Admin Experience",
   "maturity": "Hardened",
   "description": "Form/detail DSLs and resource-derived admin form helpers.",
